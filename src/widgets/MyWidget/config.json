@@ -1,0 +1,6 @@
+{
+    "configText":"abcdefg",
+    "service": {
+        "url":"@@@servicesUrl@@@"
+    }
+}

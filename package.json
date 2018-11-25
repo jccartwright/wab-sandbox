@@ -1,0 +1,24 @@
+{
+  "name": "wab-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jccartwright/wab-sandbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jccartwright/wab-sandbox/issues"
+  },
+  "homepage": "https://github.com/jccartwright/wab-sandbox#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-replace": "^1.0.0",
+    "yargs": "^12.0.5"
+  }
+}
