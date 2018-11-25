@@ -4,7 +4,7 @@ define(['dojo/_base/declare', 'jimu/BaseWidget'],
     return declare([BaseWidget], {
       // Custom widget code goes here
 
-      baseClass: 'jimu-widget-mywidget'
+      baseClass: 'jimu-widget-mywidget',
 
       //this property is set by the framework when widget is loaded.
       //name: 'CustomWidget',
@@ -17,11 +17,12 @@ define(['dojo/_base/declare', 'jimu/BaseWidget'],
       //   console.log('postCreate');
       // },
 
-      // startup: function() {
-      //  this.inherited(arguments);
-      //  this.mapIdNode.innerHTML = 'map id:' + this.map.id;
-      //  console.log('startup');
-      // },
+      
+      startup: function() {
+       this.inherited(arguments);
+       this.mapIdNode.innerHTML = 'map id:' + this.map.id;
+       console.log('startup');
+      },
 
       // onOpen: function(){
       //   console.log('onOpen');
